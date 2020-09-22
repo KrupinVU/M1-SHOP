@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <title>Dr. Harness</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a href="#" class="header__logo" aria-label="Ссылка на главную">
+          <img src="./img/logo.png" alt="Логотип" aria-hidden="true" />
+        </a>
+        <nav class="header__nav nav">
+          <div class="nav__burger">
+            <div class="burger__bar"></div>
+            <div class="burger__bar"></div>
+            <div class="burger__bar"></div>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#catalog" class="nav__link">Каталог</a>
+            </li>
+            <li class="nav__item">
+              <a href="#benefits" class="nav__link">Преимущества</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a href="#info" class="nav__link">Как заказать</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              <span class="hero__title_light">Женские кожанные портупеи</span
+              >Dr.Harness
+            </h1>
+            <p class="hero__desc">Любая модель со скидкой 50%</p>
+            <p class="hero__desc hero__desc_bold">
+              Всего за <span>2990</span>р.
+            </p>
+            <div class="hero__link-wrapper">
+              <a href="#belt1" class="hero__link">Повседневные портупеи</a>
+              <a href="#belt2" class="hero__link">Эротические портупеи</a>
+            </div>
+          </div>
+          <img src="./img/LWoman.png" alt="" class="hero__img hero__img_left" />
+          <img
+            src="./img/RWoman.png"
+            alt=""
+            class="hero__img hero__img_right"
+          />
+        </div>
+      </section>
+      <section class="benefits" id="benefits">
+        <div class="container">
+          <h2 class="section__title benefits__title">
+            Хит №1 в мире - модные женские портупеи
+          </h2>
+          <p class="benefits__text">
+            Как и все кожаные аксессуары, портупея находится сегодня на пике
+            востребованности в мире моды, даря своей обладательнице внимание и
+            уверенность в себе.
+          </p>
+          <p class="benefits__text">
+            Многообразие видов портупей - это как характер каждой девушки: от
+            портупеи из тонких ремешков для романтичных и женственных натур, до
+            сложных сплетений их средних и широких - для дерзких и
+            раскрепощенных.
+          </p>
+        </div>
+        <img
+          class="benefits__models"
+          src="./img/row.jpg"
+          alt="Изображение моделей в портупеях"
+        />
+      </section>
+      <section class="sizes">
+        <div class="sizes__mask">
+          <div class="container">
+            <h2 class="section__title sizes__title">Таблица размеров</h2>
+            <div class="sizes__table-wrapper">
+              <table class="sizes__table table">
+                <caption class="visually-hidden">
+                  Таблица размеров
+                </caption>
+                <tr class="table__row">
+                  <td class="table__cell table__cell_bold">Международный</td>
+                  <td class="table__cell table__cell_bold">XS</td>
+                  <td class="table__cell table__cell_bold">S</td>
+                  <td class="table__cell table__cell_bold">M</td>
+                  <td class="table__cell table__cell_bold">L</td>
+                  <td class="table__cell table__cell_bold">XL</td>
+                  <td class="table__cell table__cell_bold">XXL</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__cell table__cell_bold">Российский</td>
+                  <td class="table__cell table__cell_bold">40</td>
+                  <td class="table__cell table__cell_bold">42</td>
+                  <td class="table__cell table__cell_bold">44/46</td>
+                  <td class="table__cell table__cell_bold">48/50</td>
+                  <td class="table__cell table__cell_bold">52/54</td>
+                  <td class="table__cell table__cell_bold">56</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__cell table__cell_bold">Бедра (см)</td>
+                  <td class="table__cell">84-92</td>
+                  <td class="table__cell">92-95</td>
+                  <td class="table__cell">96-101</td>
+                  <td class="table__cell">102-108</td>
+                  <td class="table__cell">109-116</td>
+                  <td class="table__cell">117-121</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__cell table__cell_bold">Талия (см)</td>
+                  <td class="table__cell">60-65</td>
+                  <td class="table__cell">66-69</td>
+                  <td class="table__cell">70-77</td>
+                  <td class="table__cell">78-85</td>
+                  <td class="table__cell">86-95</td>
+                  <td class="table__cell">96-102</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__cell table__cell_bold">Грудь (см)</td>
+                  <td class="table__cell">74-80</td>
+                  <td class="table__cell">82-85</td>
+                  <td class="table__cell">86-93</td>
+                  <td class="table__cell">94-102</td>
+                  <td class="table__cell">103-113</td>
+                  <td class="table__cell">114-119</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="catalog" id="catalog">
+        <div class="container catalog__container">
+          <h2 class="section__title catalog__title">Каталог</h2>
+          <div class="catalog__filter-wrapper">
+            <input type="checkbox" name="belt" id="belt1" checked />
+            <label for="belt1">Повседневные портупеи</label>
+            <input type="checkbox" name="belt" id="belt2" />
+            <label for="belt2">Эротические портупеи</label>
+          </div>
+
+          <div class="catalog__items">
+            <div class="catalog__item">
+              <img src="./img/catalogimg1.jpg" alt="Девушка в портупее" />
+              <span class="item__discount">53%</span>
+              <p class="item__name">Портупея "Пеппи"</p>
+              <div class="item__size-wrapper">
+                <button class="item__size">XS</button>
+                <button class="item__size">S</button>
+                <button class="item__size">M</button>
+                <button class="item__size">L</button>
+                <button class="item__size" disabled>XL</button>
+                <button class="item__size" disabled>XXL</button>
+              </div>
+              <div>
+                <button class="item__color item__color_black">Black</button
+                ><button class="item__color item__color_red">Red</button>
+              </div>
+
+              <p class="item__price">
+                <span class="item__price_line-through">4990 р.</span
+                ><span class="item__price_bold">2990 р.</span>
+              </p>
+              <button class="item__order" id="btn" type="submit">
+                Заказать
+              </button>
+            </div>
+            <div class="catalog__item">
+              <img src="./img/catalogimg2.jpg" alt="Девушка в портупее" />
+              <span class="item__discount">53%</span>
+              <p class="item__name">Портупея "Влади"</p>
+              <div class="item__size-wrapper">
+                <button class="item__size">XS</button>
+                <button class="item__size">S</button>
+                <button class="item__size">M</button>
+                <button class="item__size">L</button>
+                <button class="item__size">XL</button>
+                <button class="item__size">XXL</button>
+              </div>
+              <div>
+                <button class="item__color item__color_black">Black</button
+                ><button class="item__color item__color_red" disabled>
+                  Red
+                </button>
+              </div>
+
+              <p class="item__price">
+                <span class="item__price_line-through">4990 р.</span
+                ><span class="item__price_bold">2990 р.</span>
+              </p>
+              <button class="item__order" type="submit">Заказать</button>
+            </div>
+            <div class="catalog__item">
+              <img src="./img/catalogimg3.jpg" alt="Девушка в портупее" />
+              <span class="item__discount">53%</span>
+              <p class="item__name">Портупея "Джонни Миллер"</p>
+              <div class="item__size-wrapper">
+                <button class="item__size">XS</button>
+                <button class="item__size">S</button>
+                <button class="item__size">M</button>
+                <button class="item__size">L</button>
+                <button class="item__size" disabled>XL</button>
+                <button class="item__size" disabled>XXL</button>
+              </div>
+              <div>
+                <button class="item__color item__color_black">Black</button
+                ><button class="item__color item__color_red">Red</button>
+              </div>
+
+              <p class="item__price">
+                <span class="item__price_line-through">4990 р.</span
+                ><span class="item__price_bold">2990 р.</span>
+              </p>
+              <button class="item__order" type="submit">Заказать</button>
+            </div>
+            <div class="catalog__item">
+              <img src="./img/catalogimg1.jpg" alt="Девушка в портупее" />
+              <span class="item__discount">53%</span>
+              <p class="item__name">Портупея "Пеппи"</p>
+              <div class="item__size-wrapper">
+                <button class="item__size">XS</button>
+                <button class="item__size">S</button>
+                <button class="item__size">M</button>
+                <button class="item__size">L</button>
+                <button class="item__size" disabled>XL</button>
+                <button class="item__size" disabled>XXL</button>
+              </div>
+              <div>
+                <button class="item__color item__color_black">Black</button
+                ><button class="item__color item__color_red">Red</button>
+              </div>
+
+              <p class="item__price">
+                <span class="item__price_line-through">4990 р.</span
+                ><span class="item__price_bold">2990 р.</span>
+              </p>
+              <button class="item__order" type="submit">Заказать</button>
+            </div>
+            <div class="catalog__item">
+              <img src="./img/catalogimg2.jpg" alt="Девушка в портупее" />
+              <span class="item__discount">53%</span>
+              <p class="item__name">Портупея "Влади"</p>
+              <div class="item__size-wrapper">
+                <button class="item__size">XS</button>
+                <button class="item__size">S</button>
+                <button class="item__size">M</button>
+                <button class="item__size">L</button>
+                <button class="item__size">XL</button>
+                <button class="item__size">XXL</button>
+              </div>
+              <div>
+                <button class="item__color item__color_black">Black</button
+                ><button class="item__color item__color_red" disabled>
+                  Red
+                </button>
+              </div>
+
+              <p class="item__price">
+                <span class="item__price_line-through">4990 р.</span
+                ><span class="item__price_bold">2990 р.</span>
+              </p>
+              <button class="item__order" type="submit">Заказать</button>
+            </div>
+            <div class="catalog__item">
+              <img src="./img/catalogimg3.jpg" alt="Девушка в портупее" />
+              <span class="item__discount">53%</span>
+              <p class="item__name">Портупея "Джонни Миллер"</p>
+              <div class="item__size-wrapper">
+                <button class="item__size">XS</button>
+                <button class="item__size">S</button>
+                <button class="item__size">M</button>
+                <button class="item__size">L</button>
+                <button class="item__size" disabled>XL</button>
+                <button class="item__size" disabled>XXL</button>
+              </div>
+              <div>
+                <button class="item__color item__color_black">Black</button
+                ><button class="item__color item__color_red">Red</button>
+              </div>
+
+              <p class="item__price">
+                <span class="item__price_line-through">4990 р.</span
+                ><span class="item__price_bold">2990 р.</span>
+              </p>
+              <button class="item__order" type="submit">Заказать</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info" id="info">
+        <div class="container info__container">
+          <h2 class="section__title info__title">Как заказать</h2>
+          <div class="info__cards">
+            <div class="info__card">
+              <div class="card__img-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="51"
+                  height="50"
+                  viewBox="0 0 51 50"
+                >
+                  <image
+                    id="_028-newspaper"
+                    data-name="028-newspaper"
+                    width="51"
+                    height="50"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAyCAYAAADx/eOPAAADrElEQVRogeWaTUhVQRTHf35bWaGJ1SboiyDQPsioNkEtoiiiKAyiRYuIahFEECktomVBq0SiRRBEX2RftCrSolqkFRVtWih9EYQZhmZqToydJ+Pt3Xl3ru/dd80/XO57M/eeOf85Z86cmbk5Sqla4DCQT7yhgMvAXvn9DzSZpBUxRgXwNZl62hq9QDHwCWjSBGPGYxCoBhYA/UCe75NKqS71F1e0kWJ6HRcde5VSFX46muNkQiT9HA5TLG9VAeeA5yaZuLmXCZtue8QNq3Oj1yvt6BWB3bZwrAfaZgkOgxEppju3G7jp8M6A3AdtZG4D60epXFjUAwdc37W5WVTWSIZQc5/NMpuAjUBRWOEhoAd6D3A33WSUuNqYwf8QzYZhs8wyYEnI+ecXcEnukcGPzHzg2SiV2ADUeMqmyhj0Cy6JjkuaSKaCH5l5odQficWe/0eAOqAwRUDRhHTSuwV4lQ4yPcZvHfMbHcZXAzAb6PCU7wYmB5QxB1iaLjImmoF7DjI7hIwX24F9klGkskwbcNGhzSEEITPdUWaRT/lrYL+jLCeMm9CcCZSniGaIm30Jk05FSabOMZrpjP2lSwNRutlOWc3mSSf6Xbp+FrDItYEoLbNNtomyGs3ShbfAwUw28F9FsyBkuh1l/g6py6gRxM3KgBKH7LnAp3wlcMgyqZrQY6bWtSP9yJgNngCOOcicJPeJnvILwFwHOS+A8w7P+5L5ZvwulssVfZ7nTwFHLZYz8RF44tqgH5kWSQqXi3u57AEktovOeMob5CoIIG8gRX1S2MZMovF0oz8DMocw7kLzmEGq0LwuS9uzLovBYdjI3JDMNRs4LXNSAjnG3Xe+s7lZ0PV6JuCdo0rlXmhry2YZvWm+NWI30+n/D+C6p/wWsAto9cyBI2Aj0ycbeXHANdmx+WCbg/JjfmJmoi3VA7mGdULNujFAQu9cTaQTmGkkiDboY44VGbSmltslqVBXwHcSB8u5+sj5jhxLd6Q4Nq9U0cHlGP+xaNWm3ey+MCuTk1s/fAc+p98YSdES8LmFwCr53aw/Nyk3dt21wtMsoThfTggyiZ9Ae0D5rbInzRApMdVJw4EeKaUKY/y1RuI6a+j8YOgTIKPyjVH5TilVo5TKiSGJNUqpJkPXbqVUma7LMT5qKpUd/0rDjO2y4uuUBVU25qSEgiXiUlVGndZrrSyx8bLW5OojjFqjQaNSaoapv2kZE9o6O4DVkkboXsk29Gcl74GnwFXg4QiFgD94oe4wy3cXNgAAAABJRU5ErkJggg=="
+                  />
+                </svg>
+              </div>
+              <p class="card__desc">Вы оформляете заказ на нашем сайте</p>
+            </div>
+            <div class="info__card">
+              <div class="card__img-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="51"
+                  height="50"
+                  viewBox="0 0 51 50"
+                >
+                  <image
+                    id="_002-telemarketer"
+                    data-name="002-telemarketer"
+                    width="51"
+                    height="50"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAyCAYAAADx/eOPAAAFtElEQVRogdVafWhXVRh+9lGmpjmXgQttS3NMV0rTrGarhEyNPoikCJMExRQRyyKZkKuoyKARFQYlaFp/SN9/BFqRloquj21SYpk1dYW2mrY5c+zjiVPPjZfb/e13v5b1wOHec8573vM+95z73vecc3NIIkXcBOBuAJUALupD7SEADQDeAbA+te4dmRTSQJLvMh7qSZalYUcaI3MWgEYAZco/DmALgCYAXQByjWwvgEmqPw7gBIASAJ0ALgVwIJElKTyRtzUeTSTHhJB/TPJrlN9i2ieyJSmRqTKki+TIEPL5JE+rzeWmvEllS84kmVdkxHMh5W+X/H5f+RyV7z2TZL6WEdeElN8n+Vt85cON6zgnrj25IV6rvjBYdb+FkH3POIlpvro2c39uXGOSkjmh63l9yNwAYB+Am0XaebSHAOwFsAJAMYABzhcpdcS2JuE0+1hTY5qvfIjej/fN9GkgOYJkOcnvfF+kb0n2kGxOYk9+7KfwF1p0nQmgAMAUABMB3Kin7eFRADWmzVgA9wC4E8AsAJeorjWRNQlHZnUf33znHKpJFmXRMZTk/Wqz/UyMTDmAUQBKlW8GsBvA9wC+AVAH4KuQutzLv033hQBmAzgK4MvIVsV4AssDRuGphCO8IEDnE/3tms8HUKv77fJSDkWRn+I/9TockV7n8aoBjImiJCoZzwW7wPA6APOVL4iox49hyj8jvfuVL4yiJCqZo7p6nqpb16ER9fjhtT+pa7Gvv1CISqbDdJAD4BfdX5ASGc81D/LlQyFOBHBEV/e1Pqz7C+Nx+BsemQZT1mpGKhTiuGavg7kKSRyGKLX30a5I79qvAXVDdK2Qy4cWd9EQw41WB7jR7izrmbVGdmVA/WcBOt+Malvc78JaHxGH4gyyS1R/nGSn7q/1yfys8k+MvsgLtbhR8xpdtwLYoftxGWSn6+ris5d0P9XUDwcwAkA9gFWaig4b/41pBj1Zh3WaNg6vZ5C9K2AKtZOsJVlJcpXKDpHs0H1NHLvikpmuTt/Su+KhJIP8IyQPaxnwUQA5iw0xbYpNZoY6b/G9QwdI5oVo73ZxHjQEurT2uSMukSRkCjUqq5V3BH6SYfUht5xqDJlJSUgkJQPtYtr8aJI/GgNdJD1R20uezFiSD5A8ZuRmpEEkCZlyTY1tvvLh+j5YnNT0a/GV7xHZVIgkITNZBvn3v7xUqT21oz4Cp0i+QfLWNEl4Kcle82jtzrRlkStW7PW7YrnOLPKxEZXMeABV2rTIU4DpxVI9AD7UNlJYLAKwEMDZku9WfOeOPL4AsEfL8XAIOYTzSO7K8n3w8HJInctC6nNTeUWYnc5sHc4m2WgUuy/0JpJHlG/W+zGB5Fwjl+3D97CRdRFEBclSknU+HYdN3nnA++KSedIo+oHkQpKDVDeKZKvqNpk215s2r2XQa6PupaZ8pSm37vo2kjtM3eaoZNabxk+TzA2QKTGEdocklInIOlM+K4NNi41MXVCkEdToBdNoTpbpEoaQN3JLExDx0iQtJRw+zUZmnlE8M+SLXGJCGffEBqi8yqxNPjd6F5m2r2aYWtn6a1ObFzORsWcki0Mq9tJIQ6jRECpWBODhXtNmsymvitjfFNP2yiAy3inYzoiKMxEarGnTkzIRL9Wq/T4/mWFGeZJjbEvIhjILUiYCOSXvfLTSkvFezrij4ifUZAxeHkCkNyERLz0rfRssma0qnJ9CBy4VmAMlt+i6mORG5XsUqKbRz2XS6RxCHrTeOKXC0pQ68RPqNUQqUuwDxsGMy9U/LgMBnNbZSlpwf2BM1plNjnReoQAyTTRK14RccwIc9nAoCk7oaPB5AFf1AxEosnaoyFVnDh/0Q0fQnvGySKF8NOyU9Ph8MzIHtfeck0YPPvSmcEwfBLcYO6byMrc4a9PGNQP+Qvqvw/t34M/FnRuJXQCuFiFvxfd/QzuAg38AckEysoylt1MAAAAASUVORK5CYII="
+                  />
+                </svg>
+              </div>
+              <p class="card__desc">
+                Менеджер перезвонит для уточнения деталей заказа
+              </p>
+            </div>
+            <div class="info__card">
+              <div class="card__img-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="48"
+                  height="50"
+                  viewBox="0 0 48 50"
+                >
+                  <image
+                    id="_030-package-1"
+                    data-name="030-package-1"
+                    width="48"
+                    height="50"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAayliMAAACw0lEQVRoge2ZS2gUQRCGv13GuIoGBPEiRFQ8GW8iCYgYPSieVAKCxKMHBXNT9CRECOpFRFR8HgyCQYQoig98IYIHL+pRQXL2LSgaFFsaapLKMtvz6N2dDMwPDdNL/dX9b1VXz3RXjDEkxH2gN6mxJ94A64B/cW6SCrgK7GzT5EPYP2xznFESAYPASXl+D9wKuQ6OddoFbJf+HeBdAo7FRmCVPA8Bh52zswIcrddMYcIYszDGXrflituTglczxnxW3C0u+6pDWyfwQPVtOD85/43p6FK9xSl4vyUKIW67+C4BD4F58nwQeJJiEtSliyt1ovAK2K24jcduEJozKoRjKcKv2wbloz+jj0vKx2iUTRRpQJHGMw7cLAG2vVZ+BuPWwEpgRPXXpwx9K9An6wKphmv1GFrALOCx6m8DxmeAgC/AJtW3hWVB2NEC7gGL5PkYMNa+OcbiGbBfjOYAjyYJkkvDKs9OeeRrM/YBVxtSPs9buwDYChwSPRPAS/mt5vGP2V21W/V3AEsylFONP/KO9EPKuy2zL+yrxE9grofjPPG3KjlVWAQSkvnAXeCoZ5jbAZue+4B+4FegBnwrq70I6BMB08poZ4HSKHIfKCRKAXmjFJA3Ci8gSGATokc2kJo6QWgFKnIeZD8jz8aNlUbAFWBFCydeD7tRXQc+uozSCDgCHAA6mjrNaBh5K/geZ5hGwEjd5+aMQFmF8kaaFIrCGmAvMNujMlneU+BCFrKvgGvAUk8fyMn3TeBDWqKvgGE5LejwjMDzJBUnCr4CLkrLDWUVyhu+KbQa2NOkKnQ5C9lXwCiwzNOHxS65yGh7FTouVcg3ArlVoXPSqhkFVISX+fXcV0CI2PvcBvD+rijLaN4oBeSNogqYXPxawLd85pIJX0NSoETYm8ATBbkfCK9/q/aKqZVnPC2HjcBpYKCA68EAN/4DY7bWebucnTgAAAAASUVORK5CYII="
+                  />
+                </svg>
+              </div>
+              <p class="card__desc">В ближайшее время отправляем ваш заказ</p>
+            </div>
+            <div class="info__card">
+              <div class="card__img-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="60"
+                  height="45"
+                  viewBox="0 0 60 45"
+                >
+                  <image
+                    id="_003-credit-card"
+                    data-name="003-credit-card"
+                    width="60"
+                    height="45"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAtCAYAAADydghMAAAEWElEQVRogdWZW4hVVRjHf3POTKU1WcwUVFpBGhIoSheQIIuGIKgoIiwFNUi7EFk+6EM3qIfqxSQIHwwijCizCxkUNaGN4kNZUFGBgaWMRmpkHButsfPFwv+q5ebsc2btvc9pnz9s9trfXnut9V3Wd9mrx8wAHgeWA2dRfhwFNgMPAH/GrtYxvBp4tgsYTeJ94ObYjxzDY8AkYATY5OltXWo2OFOsA1cCSzTC+cDPMaM5hseBXuAu4PWSMNcM5wH79X428E3MxxXgmNrndGzJJzAAzJR1JTEDuCjlu5A+HjtpJWgnzfhO4DXgbV0bgGtjJ2iAycBLwF7ge2BP4ENuAr4DdgE/AVuAqxJD5NtuZlazE3jIeWxdCywd84N+sVefmX2bMnIa3WFOMM+8gD4zdg2VFDks1X0f8BHwMfC7aPfnkO8TwGVqPw8sAN7Ss6f/CCwC7gPGRHsjx5wnI0XDm0VbE9C2irYhh4Z3a4w3E3Q/9mEzGwzoiwNtzmqnhj2OB+16AfI9W/ftCbp/PggcCuhbgvYFBcyfynCf7rcDr8p5zRbtlBzz/aD7MuBUtS8E7lZ7upylx6NB+6sc8/6HFJNe0sSBDOUw6aFgnFEzGzGzow3m2G5mO4PnF4tyWr0pcnhF4eOWQBMuh10PDOeQr/t2DbBSJhqa6TPAbYrNVwf0z4EHc8x5ElymVQPOAFYALxQ1cAsMATcC5yreumLgM6AfuAeYC/wFbJPwQ8wDduj5EmB3zMRpGm43hlMspaZwNVEciV3n/8VwUfgQ+KOJ80WZmRPku8C6bmd4bkTfG1xE6HaGndZ+a6Jh0zVHwlnZ7QwvVPRohfnAVqDaKtMqO6ZNcH39uo+naXhFk98nruB+RBnXupS61RROXJY2C3gqmDSE086TwJeKwfemONJRYBVwIEGfqML8mNYo0+prkmV5VM3s4hZ96hpvfYt+G9XvSIt+y3NkWreq/1gjaR7XH8HrUqS1S4WE+5e0FpgqjXr06P07enbJTBU4M1GAVFT++bi7SOViX4Px9is5yY+UXLrMVy4Nd7vTikbIcBH1bicQrjP6/5Zj+DS1D3cJw6NBOzqP6NVxhbs/rAKcCHffSYRZk0cyTE2I4ecUJy/X1S34APglC8NPKx9dpsM0a9K/rhAzTfvnoCqRaoeE1KNQ9h7wWKYBdHoYg35JdpJy1JEiOWoTrgE+dZldluKhFljBVCUUnTp8M1nT6RF+xlnlpf4hq4b3peTGZUctqzeOllJJYFnrYf/dWv1VLON5sofpTNmF3d6sJn1ACcsVwBdtWmiRcOF2pzsazmvSA+XjrSH8Oi1vRjW5DYtrB/5dZ14vfUiJQNn3sGN40HnprE7LS2mwwIV1Apm9tE8lXwa+Lmmx4VHXyac7oaxmMekpwK9ielDtsmNA2+/vLBo+FuxZdxL4SRfs4evVrmTRsMNG4I5i19URbMq6hxdrb7hjT//HpMxwVjkMLP0Hr4jBluEeczMAAAAASUVORK5CYII="
+                  />
+                </svg>
+              </div>
+              <p class="card__desc">Вы оплачиваете заказ при получении</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="popup">
+      <div class="popup__container">
+        <h3 class="section__title popup__title">bkjhhljlklj;jl;;l</h3>
+        <div>
+          <img class="popup__img" src="" alt="Изображение товара" />
+          <p class="popup__color">
+            Цвет товара: <input type="text" value="" id="color" disabled />
+          </p>
+          <p class="popup__size">
+            Размер товара: <input type="text" value="" id="size" disabled />
+          </p>
+          <p class="popup__price">
+            Цена: <input type="text" value="2990р." id="price" disabled />
+          </p>
+          <button action="" class="popup__order" type="submit">Заказать</button>
+        </div>
+      </div>
+    </div>
+    <!---->
+  </body>
+</html>
